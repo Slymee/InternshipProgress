@@ -1,0 +1,5 @@
+PHP is a server side scripting language.
+It interacts with the interpreter. The interpreter then uses the ini file to check the settings.
+The php.ini file is used to configure the php.
+The php statements are enclosed within <?php ?> tag. Each php statements ends with a semicolon.
+The interpreter also interacts with file system, database and mail servers.
