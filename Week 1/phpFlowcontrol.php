@@ -1,6 +1,10 @@
+
+<h1>If-Else Flow Control</h1>
 <?php
 // If statement
+
 $marks = 69; 
+echo "Marks = ". $marks . "<br>";
 if($marks != "Abs."):
     if($marks<33):
         echo "Failed!";
@@ -18,6 +22,15 @@ if($marks != "Abs."):
         echo "Invalid Input!!!";
     endif;
 endif;
+
+echo "<br><br>";
+?>
+
+<h1>For Loop</h1>
+<?php
+for($i=0;$i<=$marks;++$i){
+    echo $i .", ";
+}
 
 
 ?>
