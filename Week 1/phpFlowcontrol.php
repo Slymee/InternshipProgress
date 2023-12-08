@@ -3,7 +3,7 @@
 <?php
 // If statement
 
-$marks = 69; 
+$marks = 20; 
 echo "Marks = ". $marks . "<br>";
 if($marks != "Abs."):
     if($marks<33):
@@ -26,11 +26,34 @@ endif;
 echo "<br><br>";
 ?>
 
+
 <h1>For Loop</h1>
 <?php
+//For Loop
 for($i=0;$i<=$marks;++$i){
     echo $i .", ";
 }
+?>
+<br><br>
 
 
+<h1>Nested For Loop</h1>
+<?php
+//Nested For Loop
+for($i=0;$i<=$marks;++$i){
+    for($j=0;$j<=$i;++$j){
+        echo $j ." ";
+    }
+    echo "<br>";
+}
+?>
+
+<h1>While Loop</h1>
+<?php
+//While Loop
+
+while($marks>0){
+    echo $marks ." ";
+    $marks--;
+}
 ?>
