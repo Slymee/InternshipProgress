@@ -1,0 +1,6 @@
+The includes and the require function copies the content of one php file to another.
+
+1) include function returns or throws only warning if the file included files are missing.
+2) require function returns or throws datal error if the file is missing as the require function is used when it is compulsarily required.
+3) include_once function only includes its content once, if it is included again form the specific php file, it will not include again.
+4) require_once function only includes its content once, if it is included again from the specific php file, it will not include again.
