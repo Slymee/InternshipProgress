@@ -64,7 +64,6 @@
     echo "<br>";
 
     //finding string case insensitive
-
     echo stristr($secondString, "basket");
 
 
